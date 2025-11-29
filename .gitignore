@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data
+data/raw/*
+data/processed/*
+data/quarantine/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+*.csv
+
+# Logs
+*.log
